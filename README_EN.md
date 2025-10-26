@@ -1,184 +1,190 @@
-# CapStep - Smart Screenshot Tool
+# PixWit - Screenshot · Screen Recording · Simple Editing
 
-A modern Windows screenshot tool with single-screen quick capture, history management, rich editing features, and sticky note functionality.
+PixWit is a modern Windows tool for screenshots and screen recording with built‑in lightweight video editing. It supports one‑screen quick capture, history, rich annotations, and sticky notes on the desktop; full‑screen/region recording with pause/resume and completion prompts; and video trimming, removing middle segments, compression and format conversion (including GIF).
 
-## ✨ Key Features
+## ✨ Highlights
 
-- 🖥️ **Single-Screen Capture** - Press F1 on any screen to capture that screen - simple and fast
-- 📜 **Screenshot History** - Automatically save every screenshot, view history from system tray
-- 🎯 **Smart Selection** - Drag to select specific area, fine-tune with border adjustment
-- 🎨 **Visual Adjustment** - 8 adjustment handles with real-time preview
-- ✏️ **Rich Editing Tools** - Pen, line, arrow, circle, rectangle, mosaic, text
-- 🖼️ **SVG Vector Icons** - Crisp and beautiful at any DPI
-- 📌 **Sticky Notes** - Create movable and resizable desktop pins
-- 💾 **Quick Save** - PNG format support
-- 📋 **Clipboard Support** - One-click copy to clipboard
-- ⚡ **High Performance** - Perfect multi-monitor mixed DPI support
+- 🖥️ **Single‑screen capture** – Press F1 on any monitor to capture that monitor. Simple and fast
+- 📜 **Screenshot history** – Every capture is saved automatically; open history from the tray
+- 🎯 **Smart selection** – Drag to select with precise border fine‑tuning
+- 🎨 **Visual adjustment** – 8 resize handles with real‑time preview
+- ✏️ **Rich editing tools** – Pen, line, arrow, ellipse, rectangle, mosaic, text
+- 🖼️ **SVG icons** – Crisp on any DPI
+- 📌 **Sticky notes** – Pin movable and resizable screenshots on desktop
+- 💾 **Quick save** – PNG support
+- 📋 **Clipboard** – One‑click copy to clipboard
+- ⚡ **High performance** – Robust in multi‑monitor mixed‑DPI setups
 
-## 🖼️ Interface Preview
+### Recording & Video
+- 🎥 **Recording modes** – Full screen or region
+- ⏸️ **Pause/Resume** – Via global hotkeys and system tray
+- 🧭 **Recording status** – Blinking border around the screen in full‑screen mode (border is not recorded)
+- ✅ **Recording complete dialog** – After finishing, a dialog with Open/Edit/Open Folder (no Close button; actions do not auto‑close)
+- 🖱️ **Recording annotations** – Toggle “Show mouse clicks” in region recording
+
+### Video Editing & Conversion
+- ✂️ **Trim head/tail + remove middle segments** – Mark multiple middle ranges to delete; remaining parts are concatenated automatically
+- 🧭 **Pro timeline** – Thumbnails + audio waveform overlay, zoom and scroll, highlighted selection
+- 🏷️ **Deletion markers** – Semi‑transparent red overlays for all ranges to delete; current selection highlighted
+- ▶️ **Segment preview** – Double‑click any item in the list to instantly preview on the right
+- 📜 **Scrollable list** – Bounded height with auto scroll bar
+- 🔄 **Format conversion** – MP4 / AVI / MOV / WebM / GIF (GIF uses palettegen/paletteuse two‑stage optimization)
+- 🗜️ **Compression** – Dark theme consistent with the Conversion tab
+- 🐭 **GIF open strategy** – Drag/open GIF jumps directly to video editor
+
+### Interaction & UX
+- 🧭 **Buttons at timeline bottom‑right** – “Play Selection” and “Trim…” fixed at the bottom‑right for visual consistency
+- 🧼 **Top whitespace reduction** – Tabs sit closer to the title bar
+- 🧹 **Menu bar removed** – Clean UI while keeping feature entry points
+
+## 🖼️ Screenshots
 
 ### Main Window
-- Modern gradient background design
-- Clean dual-button layout
+- Modern gradient background
+- Minimal two‑button layout
 - Borderless window with minimize support
 
 ### Screenshot Editor
-- Operation buttons appear immediately after capture
-- Four functions: Save, Copy, Create Pin, Close
-- Buttons stick to image with no extra space
+- Action buttons shown right after capture
+- Four actions: Save, Copy, Pin as Sticky Note, Close
+- Buttons hug the image without extra whitespace
 
-### Sticky Notes
-- Maintain original screenshot dimensions
-- Support drag and move
-- Support resize
-- Mouse wheel zoom
-- Right-click menu operations
+### Sticky Note
+- Keeps original image size
+- Draggable and resizable
+- Mouse‑wheel zoom
+- Context menu operations
 
 ## 🚀 Quick Start
 
 ### 📥 Download & Install
 
-#### 💚 Recommended: Portable Version (No installation, no antivirus issues)
+#### 💚 Recommended: Portable version (no install, fewer AV false positives)
 
-**Ideal for quick trial and users who don't want to deal with antivirus software**
+**Best for quick try‑out or if you don’t want to deal with antivirus prompts**
 
-**Download Links:**
-- 🌐 GitHub: [Releases](https://github.com/yun-cun-li/CapStep/releases) - Recommended for international users
-- 🇨🇳 Gitee: [Releases](https://gitee.com/bjs1999/CapStep/releases) - Recommended for China users
+**Download:**
+- 🌐 GitHub: [Releases](https://github.com/yun-cun-li/PixWit/releases) – recommended for global users
+- 🇨🇳 Gitee: [Releases](https://gitee.com/bjs1999/PixWit/releases) – recommended for China mainland
 
-**How to Use:**
-1. Download `CapStep-0.1.3-Portable.zip`
+**How to use:**
+1. Download the latest portable ZIP
 2. Extract to any folder
-3. Run `运行CapStep.bat` or `CapStep.exe`
-4. Done! No installation, no admin rights required
+3. Run `运行PixWit.bat` or `PixWit.exe`
+4. Done! No installation, no admin privileges required
 
-**SHA256 Checksum:**
-```
-013c4519727a61ca5fd4bd641330873039aa906413972d14dcc0b82ec698a846
-```
 
 ---
 
-#### 🔧 Optional: Setup Installer
+#### 🔧 Optional: Installer version
 
-**Ideal for users who need auto-start and system integration**
+**Best for users who want startup integration and system shortcuts**
 
-**Download Links:**
-- 🌐 GitHub: [Releases](https://github.com/yun-cun-li/CapStep/releases)
-- 🇨🇳 Gitee: [Releases](https://gitee.com/bjs1999/CapStep/releases)
+**Download:**
+- 🌐 GitHub: [Releases](https://github.com/yun-cun-li/PixWit/releases)
+- 🇨🇳 Gitee: [Releases](https://gitee.com/bjs1999/PixWit/releases)
 
-Download `CapStep-0.1.3-Setup.exe`
+Download the latest installer
 
-**SHA256 Checksums:**
-```
-[CapStep-0.1.3-Setup.exe]
-SHA256: 20f437069b7f2ea9a3cda1c448d625760e12e7939191bac9dff85a63a7ae0451
+#### ⚠️ About antivirus warnings
 
-[CapStep-0.1.3-Portable.zip]
-SHA256: 5a189bad2dabbcea1f85e9c6fa6f325befcc86da4c4fef0b03fefb75a0ab61a3```
-
-#### ⚠️ About Antivirus Software Warnings
-
-Some antivirus software may flag this software because it doesn't have a code signing certificate.
+The app is not code‑signed yet, so some antivirus products may flag it by mistake.
 
 **✅ Why is it safe?**
-- 🌐 Source code fully open: [GitHub](https://github.com/yun-cun-li/CapStep) / [Gitee](https://gitee.com/bjs1999/CapStep)
-- 🔒 No malicious behavior: Only for screenshots, no data collection
-- 🔍 Open and transparent: Anyone can review the code
-- 🔐 File verification: Use SHA256 to verify file integrity
+- 🌐 Fully open source: [GitHub](https://github.com/yun-cun-li/PixWit) / [Gitee](https://gitee.com/bjs1999/PixWit)
+- 🔒 No malicious behavior: only for screenshots; collects no data
+- 🔍 Open and transparent: anyone can review the code
+- 🔐 File integrity: verify with SHA256 checksums
 
 **🛡️ How to use safely?**
-
-1. **Recommended**: Download the portable version (see above, fewer false positives)
-2. **If blocked**: Click "Allow" or "Run anyway"
-   - Windows Defender: Click "More info" → "Run anyway"
-   - 360/PC Manager: Click "Trust this program" or "Allow to run"
-3. **Add to whitelist**: [View detailed tutorial](docs/ADD_TO_WHITELIST.md)
+1. **Recommended:** use the portable version (fewer false positives)
+2. **If blocked:** click “Allow to run”
+   - Windows Defender: “More info” → “Run anyway”
+   - 360/QQ PC Manager: “Trust this program” or “Allow to run”
+3. **Add to whitelist:** see [detailed guide](docs/ADD_TO_WHITELIST.md)
 
 **💡 Help us improve**
-
-We are applying for whitelist status from major antivirus vendors. You can:
-- ⭐ Star the project (increases credibility)
-- 📢 Share with friends (increases download count)
+- ⭐ Star the project (improves credibility)
+- 📢 Share with friends (increases downloads)
 
 ---
 
-### 🔐 File Verification (Optional)
+### 🔐 File verification (optional)
 
-After downloading, verify file integrity to ensure it hasn't been tampered with:
+Verify integrity after download to ensure files haven’t been tampered with:
 
 **Windows:**
 ```cmd
-certutil -hashfile CapStep-0.1.3-Setup.exe SHA256
-certutil -hashfile CapStep-0.1.3-Portable.zip SHA256
+certutil -hashfile PixWit-Setup.exe SHA256
+certutil -hashfile PixWit-Portable.zip SHA256
 ```
 
-Compare the output checksum with the official values above - they should match exactly.
+Compare the output with the official checksums above; they must match exactly.
 
 ---
 
-### Basic Usage
+### Basic operations
 
-1. **Area Screenshot**: Run the program, drag to select screenshot area
-2. **Fine-tune Selection**: After selection, drag borders to adjust area, right-click or press Enter to confirm
-3. **Editing Tools**: Select pen, line, arrow and other tools for annotation
-4. **Save Screenshot**: Click save button or press Ctrl+S
-5. **Copy Screenshot**: Click copy button or press Ctrl+C
-6. **Create Pin**: Click pin button to pin screenshot on desktop
-7. **Undo**: Click undo button or press Ctrl+Z
+1. **Region capture:** run the app and drag to select a region
+2. **Fine‑tune selection:** drag borders to adjust; right‑click or press Enter to confirm
+3. **Editing tools:** annotate with pen, line, arrow, etc.
+4. **Save:** click Save or press Ctrl+S
+5. **Copy:** click Copy or press Ctrl+C
+6. **Pin to desktop:** click Sticky Note to pin the capture on desktop
+7. **Undo:** click Undo or press Ctrl+Z
 
-### Editing Tools
+### Editing tools
 
-- **Pen** - Free drawing
-- **Line** - Draw straight lines
-- **Arrow** - Mark directions
-- **Circle** - Draw circles or ellipses
-- **Rectangle** - Draw rectangular frames
-- **Mosaic** - Blur/pixelate areas
-- **Text** - Add text annotations
+- **Pen** – free drawing
+- **Line** – straight line
+- **Arrow** – direction annotation
+- **Ellipse** – circle/ellipse
+- **Rectangle** – rectangle box
+- **Mosaic** – pixelate sensitive areas
+- **Text** – add labels
 
-### Keyboard Shortcuts
+### Hotkeys
 
-**Selection Adjustment**
-- `Left-click drag border` - Adjust selection size
-- `Left-click drag inside` - Move selection
-- `Right-click` / `Enter` / `Space` - Confirm selection
-- `ESC` - Cancel screenshot
+**Selection**
+- `Drag border` – resize selection
+- `Drag inside` – move selection
+- `Right‑click` / `Enter` / `Space` – confirm
+- `ESC` – cancel capture
 
-**Editing Tools**
-- `Ctrl+Z` - Undo last operation
-- `Ctrl+S` - Save screenshot
-- `Ctrl+C` - Copy to clipboard
-- `ESC` - Close editor window
+**Editing**
+- `Ctrl+Z` – undo
+- `Ctrl+S` – save
+- `Ctrl+C` – copy to clipboard
+- `ESC` – close editor
 
-## 🛠️ Development
+## 🛠️ Development Environment
 
-### Tech Stack
-- **Language**: C++17
-- **Framework**: Qt 6.8.3
-- **Build System**: CMake 3.16+
-- **Compiler**: MSVC 2022
+### Tech stack
+- **Language:** C++17
+- **Framework:** Qt 6.8.3
+- **Build system:** CMake 3.16+
+- **Compiler:** MSVC 2022
 
 ### Requirements
 - Windows 10/11 (x64)
 - Visual Studio 2022
-- Qt 6.8.3 (MSVC 2022 64-bit)
+- Qt 6.8.3 (MSVC 2022 64‑bit)
 - CMake 3.16+
 
 ## 📚 Documentation
 
-- [📖 Build Guide](docs/BUILD.md) - Detailed compilation and build instructions
-- [🚀 Release Guide](docs/RELEASE_GUIDE.md) - Version release process
+- [📖 Build Guide](docs/BUILD.md) – detailed compile and build steps
+- [🚀 Release Guide](docs/RELEASE_GUIDE.md) – release process
 
-## 📦 Build & Compile
+## 📦 Build
 
-### Quick Build
+### Quick build
 ```bash
-# Use automated build script
+# Use the automated build script
 scripts\build.bat
 ```
 
-### Manual Build
+### Manual build
 ```bash
 # Set Qt environment
 set PATH=C:\Qt\6.8.3\msvc2022_64\bin;%PATH%
@@ -190,136 +196,154 @@ cd build
 # Configure CMake
 cmake .. -G "Visual Studio 17 2022" -A x64
 
-# Build project
+# Build
 cmake --build . --config Release
 
-# Copy dependencies
+# Copy runtime deps
 copy "C:\Qt\6.8.3\msvc2022_64\bin\Qt6*.dll" "bin\Release\"
 mkdir "bin\Release\platforms"
 copy "C:\Qt\6.8.3\msvc2022_64\plugins\platforms\qwindows.dll" "bin\Release\platforms\"
 ```
 
-For detailed build instructions, see [BUILD.md](docs/BUILD.md)
+See `编译说明.md` for more details.
 
 ## 📁 Project Structure
 
 ```
-CapStep/
-├── src/                              # Source code directory
-│   ├── main_modular.cpp             # Main entry point
-│   ├── MainWindow.cpp               # Main window
-│   ├── ScreenshotEditWindow.cpp     # Editor window
-│   ├── StylePopover.cpp             # Color/width picker
-│   └── ...                          # Other modules
-├── resources/                        # Resource files
+PixWit/
+├── src/                              # source code
+│   ├── main_modular.cpp             # app entry
+│   ├── MainWindow.cpp               # main window
+│   ├── ScreenshotEditWindow.cpp     # editor
+│   ├── StylePopover.cpp             # color/width selector
+│   └── ...                          # more modules
+├── resources/                        # app resources
 │   └── icons/                       # SVG icons
-├── build/                            # Build directory
-├── dist/                            # Distribution directory
-├── CMakeLists.txt                   # CMake configuration
-├── scripts\build.bat                # Build script
-├── scripts\deploy.bat               # Package script
-├── quick_scripts\release.bat        # One-click release
-└── README.md                        # Project documentation
+├── build/                           # build output
+├── dist/                            # release output
+├── CMakeLists.txt                   # CMake config
+├── scripts\build.bat                # build script
+├── scripts\deploy.bat               # packaging script
+├── quick_scripts\release.bat        # one‑click release
+└── README.md                        # project readme
 ```
 
-## 🎯 Feature Highlights
+## 🎯 Feature Details
 
-### Single-Screen Quick Capture
-- Press F1 on any screen to capture that screen
-- No cross-screen needed, simple and intuitive
-- Avoids multi-monitor DPI issues
-- Fast response without lag
+### One‑screen quick capture
+- Press F1 on the target monitor to capture there
+- No cross‑screen hassle; intuitive and fast
+- Avoids mixed‑DPI pitfalls
+- Responsive and smooth
 
-### Screenshot History Management
-- Automatically save every screenshot
-- Filename: date_time.png
-- Open history folder from system tray
-- Save path: %APPDATA%\CapStep\ScreenshotHistory\images\
+### Screenshot history
+- Auto‑save on every capture
+- Filename: `YYYY_MM_DD_HH_MM_SS.png`
+- One‑click open from system tray
+- Save path: `%APPDATA%\PixWit\ScreenshotHistory\images\`
 
-### Rich Editing Tools
+### Rich tools
 - 7 drawing tools
-- 6 color options
-- 3 thickness levels
-- Undo/redo functionality
+- 6 color presets
+- 3 stroke widths
+- Undo/Redo
 
-### SVG Vector Icons
-- Crisp and beautiful
-- DPI adaptive
+### SVG icons
+- Sharp and beautiful
+- DPI‑aware
 - Small footprint
-- Fast loading
+- Fast to load
 
-### Convenient Operations
-- Edit immediately after capture
-- One-click save/copy/pin
-- Keyboard shortcuts support
-- Smart adaptive layout
+### Convenience
+- Edit right after capture
+- One‑click Save/Copy/Pin
+- Hotkey support
+- Smart, adaptive layout
 
-## 🐛 Feedback & FAQ
+## 🐛 Support & FAQ
 
-### ❓ Frequently Asked Questions
+### ❓ Frequently Asked
 
-#### 1. What about antivirus warnings?
+#### 1. Antivirus reports a virus. What should I do?
+It’s a false positive because the program isn’t code‑signed yet. Solutions:
+- **Option 1:** use the portable version (no install, fewer alerts)
+- **Option 2:** click “Allow/Trust this program”
+- **Option 3:** [add to whitelist](docs/ADD_TO_WHITELIST.md)
 
-This is a false positive because the program doesn't have a code signing certificate. Solutions:
-- **Method 1**: Use the portable version (no installation needed, fewer false positives)
-- **Method 2**: Click "Allow to run" or "Trust this program"
-- **Method 3**: [Add to whitelist](docs/ADD_TO_WHITELIST.md)
+#### 2. How to verify safety?
+1. Review the full source: [GitHub](https://github.com/yun-cun-li/PixWit) / [Gitee](https://gitee.com/bjs1999/PixWit)
+2. Use SHA256 to verify file integrity (see Download section)
+3. Check project information and community feedback
 
-#### 2. How to verify the software is safe?
+#### 3. Why not buy a code‑signing certificate?
+As an open‑source project, we haven’t purchased a certificate yet. We’ll consider it with enough community support.
 
-1. View full source code: [GitHub](https://github.com/yun-cun-li/CapStep) / [Gitee](https://gitee.com/bjs1999/CapStep)
-2. Use SHA256 to verify file integrity (see download section above)
-3. Check project information and user reviews
-
-#### 3. Why not purchase a code signing certificate?
-
-As an open-source project, we haven't purchased a code signing certificate yet. If the project receives enough support, we'll consider purchasing one.
-
-### 📮 Other Issues
-
-If you encounter other issues while using:
-
-1. Check troubleshooting in [Build Documentation](docs/BUILD.md)
-2. Verify Qt runtime libraries are present
-3. Confirm system compatibility (Windows 10/11)
-4. Submit an Issue on [GitHub](https://github.com/yun-cun-li/CapStep/issues) or [Gitee](https://gitee.com/bjs1999/CapStep/issues)
+### 📮 More help
+1. See troubleshooting in [docs/BUILD.md](docs/BUILD.md)
+2. Check whether Qt runtime DLLs are present
+3. Confirm OS compatibility (Windows 10/11)
+4. Open an issue on [GitHub](https://github.com/yun-cun-li/PixWit/issues) or [Gitee](https://gitee.com/bjs1999/PixWit/issues)
 
 ## 📄 License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under GNU General Public License v3.0 (GPL‑3.0).
 
-This is free software: you are free to redistribute and modify it. These freedoms are protected by requiring modified versions to use the same license.
+You may:
+- ✅ Use, copy, and redistribute
+- ✅ Modify and distribute modified versions
+- ✅ Use for commercial purposes
+
+But you must:
+- 📋 Keep the same GPL‑3.0 license
+- 📝 Attribute the original authors
+- 🔓 Provide full source code of your modifications
+
+See [LICENSE](LICENSE) for the full text.
 
 ## 🤝 Contributing
 
-Issues and Pull Requests are welcome!
+Issues and PRs are welcome!
 
-**Project Links:**
-- 🌐 GitHub: [https://github.com/yun-cun-li/CapStep](https://github.com/yun-cun-li/CapStep)
-- 🇨🇳 Gitee: [https://gitee.com/bjs1999/CapStep](https://gitee.com/bjs1999/CapStep)
+**Project links:**
+- 🌐 GitHub: [https://github.com/yun-cun-li/PixWit](https://github.com/yun-cun-li/PixWit)
+- 🇨🇳 Gitee: [https://gitee.com/bjs1999/PixWit](https://gitee.com/bjs1999/PixWit)
 
-### Development Guide
+### Development guide
 1. Fork this repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📊 Version History
+## 📊 Changelog
 
-- **v0.1.2** - Current version
-  - ✅ Single-screen quick capture (simplified operation)
-  - ✅ Automatic screenshot history
-  - ✅ System tray history management
+- **v0.2.0‑dev (development)**
+  - 🎥 Full‑screen/region recording; pause/resume; tray + hotkey linkage
+  - 🧭 Blinking border prompt in full‑screen recording (not captured)
+  - ✅ Recording completion dialog (no Close; Open/Open Folder do not close)
+  - ✂️ Editor: “Remove middle segments” with auto concat
+  - 🧭 Timeline: thumbnails + audio waveform; red overlays for deletions; double‑click preview
+  - 🔄 New “Conversion” tab (incl. GIF with high‑quality palette flow)
+  - 🗜️ Compression tab matches Conversion styling; all dialogs use dark theme
+  - 🖼️ Drag/open GIF goes to the video editor
+  - 🧼 Less top whitespace / removed menu bar; actions at timeline bottom‑right
+  - 🐞 Stability fixes: stuck on stop, unified ESC behavior, empty‑audio failure, etc.
+
+- **v0.1.2**
+  - ✅ One‑screen capture
+  - ✅ Auto‑save history
+  - ✅ System‑tray history
   - ✅ 7 editing tools
-  - ✅ SVG vector icons
-  - ✅ Sticky note functionality
-  - ✅ Keyboard shortcuts support (F1/F2/F3 options)
+  - ✅ SVG icons
+  - ✅ Sticky notes
+  - ✅ Hotkeys (F1/F2/F3)
 
-## 🎉 Acknowledgments
+## 🎉 Thanks
 
-Thanks to the Qt framework for the powerful GUI support!
+Thanks to the Qt framework for powerful GUI support!
 
 ---
 
-**CapStep** - Capture Every Step! 📸
+**PixWit** – Capture every moment! 📸
+
+

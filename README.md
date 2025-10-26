@@ -1,6 +1,6 @@
-# CapStep - 智能截图工具
+# PixWit - 截图 · 录屏 · 简易剪辑
 
-一个现代化的Windows截图工具，支持单屏快速截图、历史记录、丰富编辑功能和便签式贴图。
+一个现代化的 Windows 截图与录屏工具，集成基础视频剪辑能力：单屏快速截图、历史记录、丰富标注、桌面贴图；支持全屏/区域录屏、暂停/恢复、录制完成提示；内置视频裁剪、删除中间段、压缩与格式转换（含 GIF）。
 
 ## ✨ 主要特性
 
@@ -14,6 +14,28 @@
 - 💾 **快速保存** - 支持PNG格式
 - 📋 **剪贴板支持** - 一键复制到剪贴板
 - ⚡ **高性能** - 多屏混合DPI环境完美支持
+
+### 录屏与视频
+- 🎥 **录屏模式** - 全屏录制、区域录制
+- ⏸️ **暂停/恢复** - 支持全局快捷键与系统托盘操作
+- 🧭 **录制状态提示** - 全屏模式在屏幕四周绘制闪烁边框提醒录制中（边框不被录制）
+- ✅ **录制完成提示** - 录制结束弹出“录制完成”对话框，支持打开/编辑/打开文件夹（无“关闭”按钮，操作不自动关闭）
+- 🖱️ **录制标注** - 区域录制可开启/关闭“显示鼠标点击”特效
+
+### 视频剪辑与转换
+- ✂️ **头尾裁剪 + 删除中间段** - 头尾裁剪基础上，支持标记多个“中间段”删除，自动拼接保留片段
+- 🧭 **专业时间轴** - 缩略图 + 音频波形叠加，支持缩放/滚动，选区高亮
+- 🏷️ **删除段标注** - 时间轴以半透明红色覆盖显示所有“待删除”区间，当前选中段高亮显示
+- ▶️ **段落预览** - 在“删除中间段”列表中双击任意项，右侧预览窗口即时播放该段以核对
+- 📜 **可滚动列表** - 删除段列表限定高度并自动出现滚动条
+- 🔄 **格式转换** - MP4 / AVI / MOV / WebM / GIF（GIF 采用 palettegen/paletteuse 两阶段优化）
+- 🗜️ **压缩** - 与转换页签风格统一的深色主题
+- 🐭 **GIF 打开策略** - 拖拽/打开 GIF 自动进入视频剪辑窗口
+
+### 交互与体验
+- 🧭 **时间轴右下角按钮** - “播放选区”“裁剪…”固定在时间轴右下角，视觉更统一
+- 🧼 **顶部留白优化** - 标签页贴近标题栏，无额外空白
+- 🧹 **菜单栏移除** - 简化界面，保留功能入口
 
 ## 🖼️ 界面预览
 
@@ -43,19 +65,15 @@
 **适合快速体验、不想处理杀毒软件问题的用户**
 
 **下载地址：**
-- 🌐 GitHub: [Releases](https://github.com/yun-cun-li/CapStep/releases) - 国际用户推荐
-- 🇨🇳 Gitee: [Releases](https://gitee.com/bjs1999/CapStep/releases) - 国内用户推荐
+- 🌐 GitHub: [Releases](https://github.com/yun-cun-li/PixWit/releases) - 国际用户推荐
+- 🇨🇳 Gitee: [Releases](https://gitee.com/bjs1999/PixWit/releases) - 国内用户推荐
 
 **使用方法：**
-1. 下载 `CapStep-0.1.3-Portable.zip`
+1. 下载最新便携版压缩包
 2. 解压到任意文件夹
-3. 运行 `运行CapStep.bat` 或 `CapStep.exe`
+3. 运行 `运行PixWit.bat` 或 `PixWit.exe`
 4. 完成！无需安装，无需管理员权限
 
-**SHA256 校验：**
-```
-013c4519727a61ca5fd4bd641330873039aa906413972d14dcc0b82ec698a846
-```
 
 ---
 
@@ -64,25 +82,17 @@
 **适合需要开机自启、系统集成的用户**
 
 **下载地址：**
-- 🌐 GitHub: [Releases](https://github.com/yun-cun-li/CapStep/releases)
-- 🇨🇳 Gitee: [Releases](https://gitee.com/bjs1999/CapStep/releases)
+- 🌐 GitHub: [Releases](https://github.com/yun-cun-li/PixWit/releases)
+- 🇨🇳 Gitee: [Releases](https://gitee.com/bjs1999/PixWit/releases)
 
-下载 `CapStep-0.1.3-Setup.exe`
-
-**SHA256 校验：**
-```
-[CapStep-0.1.3-Setup.exe]
-SHA256: 20f437069b7f2ea9a3cda1c448d625760e12e7939191bac9dff85a63a7ae0451
-
-[CapStep-0.1.3-Portable.zip]
-SHA256: 5a189bad2dabbcea1f85e9c6fa6f325befcc86da4c4fef0b03fefb75a0ab61a3```
+下载最新安装包
 
 #### ⚠️ 关于杀毒软件拦截
 
 由于本软件未购买代码签名证书，部分杀毒软件可能会误报。
 
 **✅ 为什么是安全的？**
-- 🌐 源代码完全开放：[GitHub](https://github.com/yun-cun-li/CapStep) / [Gitee](https://gitee.com/bjs1999/CapStep)
+- 🌐 源代码完全开放：[GitHub](https://github.com/yun-cun-li/PixWit) / [Gitee](https://gitee.com/bjs1999/PixWit)
 - 🔒 无恶意行为：仅用于截图，不收集任何信息
 - 🔍 开源透明：欢迎任何人审查代码
 - 🔐 校验文件：可通过 SHA256 验证文件未被篡改
@@ -109,8 +119,8 @@ SHA256: 5a189bad2dabbcea1f85e9c6fa6f325befcc86da4c4fef0b03fefb75a0ab61a3```
 
 **Windows 系统：**
 ```cmd
-certutil -hashfile CapStep-0.1.3-Setup.exe SHA256
-certutil -hashfile CapStep-0.1.3-Portable.zip SHA256
+certutil -hashfile PixWit-Setup.exe SHA256
+certutil -hashfile PixWit-Portable.zip SHA256
 ```
 
 将输出的校验和与上方提供的官方值对比，应完全一致。
@@ -204,7 +214,7 @@ copy "C:\Qt\6.8.3\msvc2022_64\plugins\platforms\qwindows.dll" "bin\Release\platf
 ## 📁 项目结构
 
 ```
-CapStep/
+PixWit/
 ├── src/                              # 源代码目录
 │   ├── main_modular.cpp             # 主程序入口
 │   ├── MainWindow.cpp               # 主窗口
@@ -234,7 +244,7 @@ CapStep/
 - 每次截图自动保存
 - 文件名：日期_时间.png
 - 系统托盘一键打开历史文件夹
-- 保存路径：%APPDATA%\CapStep\ScreenshotHistory\images\
+- 保存路径：%APPDATA%\PixWit\ScreenshotHistory\images\
 
 ### 丰富编辑工具
 - 7种绘图工具
@@ -267,7 +277,7 @@ CapStep/
 
 #### 2. 如何验证软件安全？
 
-1. 查看完整源代码：[GitHub](https://github.com/yun-cun-li/CapStep) / [Gitee](https://gitee.com/bjs1999/CapStep)
+1. 查看完整源代码：[GitHub](https://github.com/yun-cun-li/PixWit) / [Gitee](https://gitee.com/bjs1999/PixWit)
 2. 使用 SHA256 校验文件完整性（见上方下载部分）
 3. 查看项目信息和用户评价
 
@@ -282,21 +292,31 @@ CapStep/
 1. 查看 [编译说明](docs/BUILD.md) 中的故障排除
 2. 检查是否缺少Qt运行时库
 3. 确认系统兼容性（Windows 10/11）
-4. 在 [GitHub](https://github.com/yun-cun-li/CapStep/issues) 或 [Gitee](https://gitee.com/bjs1999/CapStep/issues) 提交 Issue
+4. 在 [GitHub](https://github.com/yun-cun-li/PixWit/issues) 或 [Gitee](https://gitee.com/bjs1999/PixWit/issues) 提交 Issue
 
 ## 📄 许可证
 
-本项目采用 GNU General Public License v3.0 许可证 - 详见 [LICENSE](LICENSE) 文件
+本项目采用 GNU General Public License v3.0 (GPL-3.0) 开源许可证。
 
-这是自由软件，您可以自由地重新分发和修改它。这些自由通过要求修改版本使用相同许可证来保护。
+这意味着您可以：
+- ✅ 自由使用、复制和分发本软件
+- ✅ 修改源代码并分发修改后的版本
+- ✅ 用于商业目的
+
+但需要遵守以下条款：
+- 📋 保持相同的 GPL-3.0 许可证
+- 📝 注明原作者版权信息
+- 🔓 提供修改后的完整源代码
+
+详见 [LICENSE](LICENSE) 文件了解完整条款。
 
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request！
 
 **项目地址：**
-- 🌐 GitHub: [https://github.com/yun-cun-li/CapStep](https://github.com/yun-cun-li/CapStep)
-- 🇨🇳 Gitee: [https://gitee.com/bjs1999/CapStep](https://gitee.com/bjs1999/CapStep)
+- 🌐 GitHub: [https://github.com/yun-cun-li/PixWit](https://github.com/yun-cun-li/PixWit)
+- 🇨🇳 Gitee: [https://gitee.com/bjs1999/PixWit](https://gitee.com/bjs1999/PixWit)
 
 ### 开发指南
 1. Fork 本仓库
@@ -307,7 +327,19 @@ CapStep/
 
 ## 📊 版本历史
 
-- **v0.1.2** - 当前版本
+- **v0.2.0-dev（开发分支）**
+  - 🎥 全屏/区域录屏，暂停/恢复，系统托盘与快捷键联动
+  - 🧭 全屏录制四周闪烁边框提示（不录入画面）
+  - ✅ 录制完成对话框（无关闭按钮；“打开/打开文件夹”不关闭对话框）
+  - ✂️ 视频剪辑：新增“删除中间段”，自动拼接保留片段
+  - 🧭 时间轴：缩略图叠加音频波形；删除段红色标注；列表双击预览
+  - 🔄 新增“格式转换”页签（含 GIF，高质量调色板流程）
+  - 🗜️ 压缩页签与转换页签风格统一，所有弹窗采用深色主题
+  - 🖼️ GIF 拖拽/打开进入视频剪辑窗口
+  - 🧼 顶部留白/菜单栏清理，时间轴右下角操作按钮
+  - 🐞 多处稳定性修复：录制停止卡住、ESC 行为一致、空音频导致“视频处理失败”等
+
+- **v0.1.2**
   - ✅ 单屏快速截图（简化操作）
   - ✅ 历史截图自动保存
   - ✅ 系统托盘历史管理
@@ -322,4 +354,4 @@ CapStep/
 
 ---
 
-**CapStep** - 捕捉每一步精彩！ 📸
+**PixWit** - 捕捉每一步精彩！ 📸
