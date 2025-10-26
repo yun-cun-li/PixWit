@@ -1,0 +1,16 @@
+{
+  "version": "0.1.3",
+  "releaseDate": "2025-10-05",
+  "githubDownloadUrl": "https://github.com/yun-cun-li/CapStep/releases/download/v0.1.3/CapStep-0.1.3-Portable.zip",
+  "giteeDownloadUrl":  "https://gitee.com/bjs1999/CapStep/releases/download/v0.1.3/CapStep-0.1.3-Portable.zip",
+  "githubReleaseUrl": "https://github.com/yun-cun-li/CapStep/releases",
+  "giteeReleaseUrl": "https://gitee.com/bjs1999/CapStep/releases",
+  "directPath": "CapStep-0.1.2-Portable",
+  "releaseNotes": "v0.1.3 版本更新 - 修复已知BUG",
+  "features": [
+    "修复已知BUG"
+  ],
+  "required": false,
+  "minVersion": "0.0.0"
+}
+
