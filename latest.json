@@ -8,16 +8,16 @@
     "portable_7z": {
       "name": "便携版 (7z)",
       "description": "解压即用，体积更小",
-      "size": "85 MB",
-      "github": "https://github.com/yun-cun-li/PixWit/releases/download/1.0.0/PixWit-1.0.0-Portable.7z",
-      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/1.0.0/PixWit-1.0.0-Portable.7z"
+      "size": "18 MB",
+      "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.0.0/PixWit-1.0.0-Portable.7z",
+      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.0.0/PixWit-1.0.0-Portable.7z"
     },
     "setup": {
       "name": "安装版",
       "description": "一键安装，自动配置",
-      "size": "115 MB",
+      "size": "45 MB",
       "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.0.0/PixWit-1.0.0-Setup.exe",
-      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/1.0.0/PixWit-1.0.0-Setup.exe"
+      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.0.0/PixWit-1.0.0-Setup.exe"
     }
   },
   "releaseUrls": {
