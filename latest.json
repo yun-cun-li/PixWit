@@ -1,7 +1,7 @@
 {
-  "version": "0.2.5",
-  "releaseDate": "2025-10-26",
-  "releaseNotes": "v0.2.5 版本更新\n- 优化体积：新增 7z 压缩格式（节省 25% 体积）\n- 修复快捷键显示：动态显示用户设置的停止录制键\n- 新增防护：多重竞态条件保护\n- 优化日志：Release 版本过滤 DEBUG 日志",
+  "version": "1.0.0",
+  "releaseDate": "2025-11-08",
+  "releaseNotes": "",
   "required": false,
   "minVersion": "0.0.0",
   "downloads": {
@@ -9,15 +9,15 @@
       "name": "便携版 (7z)",
       "description": "解压即用，体积更小",
       "size": "85 MB",
-      "github": "https://github.com/yun-cun-li/PixWit/releases/download/v0.2.5/PixWit-0.2.5-Portable.7z",
-      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v0.2.5/PixWit-0.2.5-Portable.7z"
+      "github": "https://github.com/yun-cun-li/PixWit/releases/download/1.0.0/PixWit-1.0.0-Portable.7z",
+      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/1.0.0/PixWit-1.0.0-Portable.7z"
     },
     "setup": {
       "name": "安装版",
       "description": "一键安装，自动配置",
       "size": "115 MB",
-      "github": "https://github.com/yun-cun-li/PixWit/releases/download/v0.2.5/PixWit-0.2.5-Setup.exe",
-      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v0.2.5/PixWit-0.2.5-Setup.exe"
+      "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.0.0/PixWit-1.0.0-Setup.exe",
+      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/1.0.0/PixWit-1.0.0-Setup.exe"
     }
   },
   "releaseUrls": {
