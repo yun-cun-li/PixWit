@@ -1,191 +1,37 @@
-# Qt/C++ 项目忽略文件
+# Dependencies
+node_modules/
 
-# 编译输出目录
-build/
-build_*/
-bin/
-lib/
-debug/
-release/
-Debug/
-Release/
+# Build output
+docs/.vitepress/dist
+docs/.vitepress/cache
 
-# CMake 生成的文件
-CMakeCache.txt
-CMakeFiles/
-CMakeScripts/
-cmake_install.cmake
-Makefile
-*.cmake
-!CMakeLists.txt
-
-# Visual Studio 生成的文件
-.vs/
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
-*.sln
-*.suo
-*.user
-*.aps
-*.pch
-*.vspscc
-*_i.c
-*_p.c
-*.ncb
-*.tlb
-*.tlh
-*.bak
-*.cache
-*.ilk
-*.log
-*.sbr
-*.sdf
-*.opensdf
-*.unsuccessfulbuild
-ipch/
-*.idb
-*.pgc
-*.pgd
-*.rsp
-*.tmp
-*.tmp_proj
-*.vssscc
-*.vspscc
-*.builds
-*.pidb
-*.svclog
-*.scc
-
-# Qt 生成的文件
-*.pro.user
-*.pro.user.*
-*.qbs.user
-*.qbs.user.*
-*.moc
-moc_*.cpp
-moc_*.h
-qrc_*.cpp
-ui_*.h
-*.qm
-.qmake.cache
-.qmake.stash
-Makefile*
-*build-*
-
-# 可执行文件
-*.exe
-*.app
-*.dmg
-*.deb
-*.rpm
-
-# 动态链接库
-*.dll
-*.so
-*.dylib
-
-# 静态库
-*.lib
-*.a
-
-# 对象文件
-*.o
-*.obj
-
-# 预编译头文件
-*.gch
-*.pch
-
-# 调试文件
-*.pdb
-*.idb
-
-# 临时文件
-*~
-*.swp
-*.swo
-*tmp*
-*.temp
-*.bak
-*.orig
-
-# 系统文件
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
-
-# IDE 配置文件
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# 日志文件
-*.log
-
-# 压缩文件
-*.zip
-*.rar
-*.7z
-*.tar.gz
-*.tar.bz2
-
-# 文档生成文件
-doc/html/
-doc/latex/
-
-# Qt Creator 文件
-*.autosave
-*.pro.user*
-*.qmlproject.user*
-
-# 自定义忽略
-# 备份文件
-*_backup.*
-*_original.*
-CMakeLists_*.txt
-
-# 测试文件
-test_*.cpp
-test_*.exe
-
-# 发布包
-release_package/
-dist/
-
-# 依赖文件夹
-third_party/
-external/
-
-# 配置文件（如果包含敏感信息）
-config.ini
-settings.ini
-
-# 崩溃转储文件
-*.dmp
-
-# 性能分析文件
-*.vsp
-*.psess
-
-# 代码覆盖率文件
-*.coverage
-*.coveragexml
-
-# 本地环境变量文件
+# Environment files
 .env
 .env.local
+.env.*.local
 
-# 包管理器文件
-vcpkg_installed/
-conan.lock
-conanbuildinfo.*
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# 特定于项目的忽略
-# 如果有特定的临时文件或测试文件，可以在这里添加
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+
