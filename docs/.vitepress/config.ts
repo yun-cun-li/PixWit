@@ -4,6 +4,8 @@ export default defineConfig({
   title: 'PixWit',
   description: '截图 · 录屏 · 简易剪辑',
   lang: 'zh-CN',
+  // GitHub Pages 部署时需要 base 路径，本地开发时使用 '/'
+  base: process.env.NODE_ENV === 'production' ? '/PixWit/' : '/',
   
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
