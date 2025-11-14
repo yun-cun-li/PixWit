@@ -3,7 +3,7 @@
     <h1 class="hero-title">PixWit</h1>
     <p class="hero-tagline">从像素到无限可能</p>
     <p class="hero-description">
-      一个工具，无限视觉洞察 · 截图 · 录屏 · 智能剪辑
+      一个工具，无限视觉洞察， 截图、 录屏、 剪辑、OCR.....
     </p>
     <div class="hero-actions">
       <a href="download" class="hero-btn hero-btn-secondary">

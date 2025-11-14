@@ -41,7 +41,7 @@
 }
 
 .hero-title {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.1;
   background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 50%, #22d3ee 100%);
@@ -55,7 +55,7 @@
 }
 
 .hero-tagline {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 600;
   color: var(--vp-c-text-1);
   margin-bottom: 0.75rem;
@@ -66,7 +66,7 @@
 
 .hero-actions {
   display: flex;
-  gap: 1rem;
+  gap:  0.55rem;
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
@@ -116,16 +116,16 @@
 
 /* Features 组件样式 - 专业卡片设计 */
 .features-section {
-  padding: 5rem 1.5rem;
+  padding: 3rem 1.5rem;
   max-width: 1280px;
   margin: 0 auto;
 }
 
 .features-title {
   text-align: center;
-  font-size: 2.75rem;
+  font-size: 2rem;
   font-weight: 800;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
   background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
   -webkit-background-clip: text;
   background-clip: text;

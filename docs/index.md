@@ -7,7 +7,7 @@ layout: home
 <Features />
 
 <div style="text-align: center; padding: 4rem 1.5rem; background: var(--vp-c-bg-soft);">
-  <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">🚀 快速开始</h2>
+  <h2 style="font-size: 2rem; margin-bottom: 1rem;">🚀 快速开始</h2>
   <p style="font-size: 1.2rem; color: var(--vp-c-text-2); margin-bottom: 2rem;">
     三步即可上手使用
   </p>
@@ -36,7 +36,7 @@ layout: home
 </div>
 
 <div style="padding: 4rem 1.5rem; max-width: 1200px; margin: 0 auto;">
-  <h2 style="font-size: 2.5rem; text-align: center; margin-bottom: 3rem;">💡 为什么选择 PixWit？</h2>
+  <h2 style="font-size: 2rem; text-align: center; margin-bottom: 3rem;">💡 为什么选择 PixWit？</h2>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
     <div style="text-align: center;">
       <div style="font-size: 3rem; margin-bottom: 1rem;">🎯</div>
@@ -62,7 +62,7 @@ layout: home
 </div>
 
 <div style="text-align: center; padding: 3rem 1.5rem; background: var(--vp-c-bg-soft);">
-  <h2 style="font-size: 2rem; margin-bottom: 1rem;">📞 获取帮助</h2>
+  <h2 style="font-size: 1.75rem; margin-bottom: 1rem;">📞 获取帮助</h2>
   <p style="color: var(--vp-c-text-2); margin-bottom: 2rem;">遇到问题？加入我们的社区</p>
   <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
     <a href="https://github.com/yun-cun-li/PixWit" target="_blank" style="padding: 0.6rem 1.5rem; background: var(--vp-c-bg); border: 2px solid var(--vp-c-divider); border-radius: 8px; text-decoration: none; color: var(--vp-c-text-1); transition: all 0.3s;">
