@@ -1,13 +1,12 @@
 <template>
   <div class="hero-section">
     <h1 class="hero-title">PixWit</h1>
-    <p class="hero-tagline">截图 · 录屏 · 简易剪辑</p>
+    <p class="hero-tagline">从像素到无限可能</p>
     <p class="hero-description">
-      Windows 截图与录屏工具，集成基础视频剪辑能力<br>
-      简单快捷 | 功能丰富 | 完全免费
+      一个工具，无限视觉洞察 · 截图 · 录屏 · 智能剪辑
     </p>
     <div class="hero-actions">
-      <a href="download" class="hero-btn hero-btn-primary">
+      <a href="download" class="hero-btn hero-btn-secondary">
         📥 立即下载
       </a>
       <a href="guide/" class="hero-btn hero-btn-secondary">
@@ -17,12 +16,16 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 .hero-description {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--vp-c-text-2);
-  margin-bottom: 2.5rem;
-  line-height: 1.8;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
 }
 </style>
 
