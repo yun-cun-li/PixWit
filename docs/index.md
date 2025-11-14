@@ -29,7 +29,7 @@ layout: home
     </div>
   </div>
   <div style="margin-top: 3rem;">
-    <a href="download" style="padding: 0.9rem 2.5rem; font-size: 1.1rem; font-weight: 700; border-radius: 12px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; display: inline-block; transition: all 0.3s; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);">
+    <a href="download" style="padding: 0.9rem 2.5rem; font-size: 1.1rem; font-weight: 700; border-radius: 12px; background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%); color: white; text-decoration: none; display: inline-block; transition: all 0.3s; box-shadow: 0 4px 15px rgba(14, 165, 233, 0.4);">
       立即下载 →
     </a>
   </div>
@@ -48,11 +48,11 @@ layout: home
       <h3>完全免费</h3>
       <p style="color: var(--vp-c-text-2);">开源软件，无广告，无内购，功能全开放</p>
     </div>
-    <div style="text-align: center;">
-      <div style="font-size: 3rem; margin-bottom: 1rem;">🛡️</div>
+    <!-- <div style="text-align: center;"> -->
+      <!-- <div style="font-size: 3rem; margin-bottom: 1rem;">🛡️</div>
       <h3>安全可靠</h3>
-      <p style="color: var(--vp-c-text-2);">代码开源透明，本地运行，不联网不上传</p>
-    </div>
+      <p style="color: var(--vp-c-text-2);">代码开源透明，本地运行，不联网不上传</p> -->
+    <!-- </div> -->
     <div style="text-align: center;">
       <div style="font-size: 3rem; margin-bottom: 1rem;">⚡</div>
       <h3>高性能</h3>

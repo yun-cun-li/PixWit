@@ -3,11 +3,11 @@
  */
 
 :root {
-  --vp-c-brand-1: #2563eb;
-  --vp-c-brand-2: #3b82f6;
-  --vp-c-brand-3: #1e40af;
+  --vp-c-brand-1: #0ea5e9;
+  --vp-c-brand-2: #06b6d4;
+  --vp-c-brand-3: #0284c7;
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --vp-home-hero-name-background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
 }
 
 /* Hero 组件样式 - 大气商业风格 */
@@ -31,7 +31,7 @@
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(102, 126, 234, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(14, 165, 233, 0.08) 0%, transparent 70%);
   animation: pulse 15s ease-in-out infinite;
 }
 
@@ -44,7 +44,7 @@
   font-size: 4rem;
   font-weight: 900;
   line-height: 1.1;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 50%, #22d3ee 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -84,10 +84,10 @@
 }
 
 .hero-btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
   color: white;
   border: none;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 15px rgba(14, 165, 233, 0.4);
   font-weight: 700;
   font-size: 1.05rem;
   padding: 0.9rem 2.5rem;
@@ -95,14 +95,14 @@
 
 .hero-btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
-  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  box-shadow: 0 8px 25px rgba(14, 165, 233, 0.5);
+  background: linear-gradient(135deg, #06b6d4 0%, #0ea5e9 100%);
 }
 
 .hero-btn-secondary {
   background: white;
-  color: #667eea;
-  border: 2px solid #e0e7ff;
+  color: #0ea5e9;
+  border: 2px solid #e0f2fe;
   font-weight: 600;
   font-size: 1.05rem;
   padding: 0.9rem 2.5rem;
@@ -110,8 +110,8 @@
 
 .hero-btn-secondary:hover {
   transform: translateY(-3px);
-  border-color: #667eea;
-  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.15);
+  border-color: #0ea5e9;
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.15);
 }
 
 /* Features 组件样式 - 专业卡片设计 */
@@ -126,7 +126,7 @@
   font-size: 2.75rem;
   font-weight: 800;
   margin-bottom: 4rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -155,14 +155,14 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(90deg, #0ea5e9 0%, #06b6d4 100%);
   opacity: 0;
   transition: opacity 0.3s;
 }
 
 .feature-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(102, 126, 234, 0.15);
+  box-shadow: 0 20px 40px rgba(14, 165, 233, 0.15);
   border-color: transparent;
 }
 
@@ -225,13 +225,13 @@
 .download-badge {
   display: inline-block;
   padding: 0.4rem 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
   color: white;
   border-radius: 24px;
   font-size: 0.85rem;
   font-weight: 700;
   margin-bottom: 1.25rem;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
 }
 
 .download-title {
@@ -253,17 +253,17 @@
   font-weight: 700;
   border-radius: 12px;
   border: none;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
   color: white;
   cursor: pointer;
   transition: all 0.3s;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
 }
 
 .download-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
-  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  box-shadow: 0 8px 25px rgba(14, 165, 233, 0.4);
+  background: linear-gradient(135deg, #06b6d4 0%, #0ea5e9 100%);
 }
 
 .download-info {
