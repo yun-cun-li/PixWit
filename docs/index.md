@@ -29,7 +29,7 @@ layout: home
     </div>
   </div>
   <div style="margin-top: 3rem;">
-    <a href="/download" style="padding: 0.8rem 2.5rem; font-size: 1.1rem; font-weight: 600; border-radius: 8px; background: linear-gradient(120deg, #42b883, #3eaf7c); color: white; text-decoration: none; display: inline-block; transition: all 0.3s;">
+    <a href="/download" style="padding: 0.8rem 2.5rem; font-size: 1.1rem; font-weight: 700; border-radius: 8px; background: linear-gradient(120deg, #2d9566, #2a8f5f); color: white; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); text-decoration: none; display: inline-block; transition: all 0.3s;">
       立即下载 →
     </a>
   </div>
