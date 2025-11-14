@@ -4,7 +4,7 @@
 
 ## 📥 下载
 
-前往 [下载页面](/download) 获取最新版本。
+前往 [下载页面](../download) 获取最新版本。
 
 推荐下载 **绿色便携版**，无需安装，解压即用。
 
@@ -144,9 +144,9 @@ PixWit 基于 Qt 6 框架开发，仅支持 Windows 10 (1809+) 和 Windows 11。
 
 - 💬 加入 QQ 群：**133125470**
 - 🐛 提交 Issue：[GitHub](https://github.com/yun-cun-li/PixWit/issues) / [Gitee](https://gitee.com/bjs1999/PixWit/issues)
-- 📖 查看 [常见问题](/guide/faq)
+- 📖 查看 [常见问题](./faq)
 
 ---
 
-安装完成后，继续阅读 [截图功能](/guide/screenshot) 开始使用。
+安装完成后，继续阅读 [截图功能](./screenshot) 开始使用。
 

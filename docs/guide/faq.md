@@ -589,9 +589,9 @@ PixWit安装目录\models\
    - [Gitee Issues](https://gitee.com/bjs1999/PixWit/issues)
 
 3. **查看文档**：
-   - [使用手册](/guide/)
-   - [快捷键汇总](/guide/shortcuts)
-   - [使用技巧](/guide/tips)
+   - [使用手册](./)
+   - [快捷键汇总](./shortcuts)
+   - [使用技巧](./tips)
 
 ---
 

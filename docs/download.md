@@ -123,7 +123,7 @@ PixWit 基于 Qt 6 框架开发，仅支持 Windows 10 (1809+) 和 Windows 11。
 
 如果您在下载或安装过程中遇到问题：
 
-- 📖 查看 [使用手册](/guide/)
+- 📖 查看 [使用手册](./guide/)
 - 💬 加入 QQ 群：**133125470**
 - 🐛 提交 Issue：[GitHub](https://github.com/yun-cun-li/PixWit/issues) / [Gitee](https://gitee.com/bjs1999/PixWit/issues)
 

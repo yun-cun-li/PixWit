@@ -307,7 +307,7 @@ GIF 文件体积可能很大，建议：
 
 ## 下一步
 
-- 🎬 了解 [录屏功能](/guide/recording)
-- 🖼️ 查看 [图片处理](/guide/image)
-- ⌨️ 查看 [快捷键汇总](/guide/shortcuts)
+- 🎬 了解 [录屏功能](./recording)
+- 🖼️ 查看 [图片处理](./image)
+- ⌨️ 查看 [快捷键汇总](./shortcuts)
 

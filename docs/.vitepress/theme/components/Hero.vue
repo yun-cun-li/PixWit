@@ -7,10 +7,10 @@
       简单快捷 | 功能丰富 | 完全免费
     </p>
     <div class="hero-actions">
-      <a href="/download" class="hero-btn hero-btn-primary">
+      <a href="download" class="hero-btn hero-btn-primary">
         📥 立即下载
       </a>
-      <a href="/guide/" class="hero-btn hero-btn-secondary">
+      <a href="guide/" class="hero-btn hero-btn-secondary">
         📖 使用手册
       </a>
     </div>

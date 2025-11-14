@@ -275,7 +275,7 @@ PixWit 内置 OCR 文字识别功能，可以快速识别图片中的文字并�
 
 ## 下一步
 
-- 📸 了解 [截图功能](/guide/screenshot)
-- 🖼️ 查看 [图片处理](/guide/image)
-- ❓ 查看 [常见问题](/guide/faq)
+- 📸 了解 [截图功能](./screenshot)
+- 🖼️ 查看 [图片处理](./image)
+- ❓ 查看 [常见问题](./faq)
 
