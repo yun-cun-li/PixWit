@@ -7,6 +7,8 @@ export default defineConfig({
   // GitHub Pages 部署时需要 base 路径，本地开发时使用 '/'
   base: process.env.NODE_ENV === 'production' ? '/PixWit/' : '/',
   
+  appearance: 'dark', // 默认暗黑模式
+  
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'keywords', content: 'PixWit,截图,录屏,视频剪辑,OCR,屏幕录制,Windows截图工具' }],

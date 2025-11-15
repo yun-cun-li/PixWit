@@ -12,9 +12,7 @@
         <button class="download-btn" @click="downloadPortable">
           📦 下载便携版
         </button>
-        <div class="download-info">
-          免安装 | 无需管理员权限
-        </div>
+     
       </div>
 
       <div class="download-card">
@@ -27,9 +25,7 @@
         <button class="download-btn" @click="downloadInstaller">
           🔧 下载安装版
         </button>
-        <div class="download-info">
-          需要管理员权限
-        </div>
+       
       </div>
     </div>
 

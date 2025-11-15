@@ -211,6 +211,9 @@
   border: 2px solid var(--vp-c-divider);
   text-align: center;
   transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .download-card.recommended {
@@ -258,6 +261,7 @@
   cursor: pointer;
   transition: all 0.3s;
   box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
+  margin-top: auto;
 }
 
 .download-btn:hover {
