@@ -54,9 +54,9 @@ layout: home
       <p style="color: var(--vp-c-text-2);">代码开源透明，本地运行，不联网不上传</p> -->
     <!-- </div> -->
     <div style="text-align: center;">
-      <div style="font-size: 3rem; margin-bottom: 1rem;">⚡</div>
-      <h3>高性能</h3>
-      <p style="color: var(--vp-c-text-2);">基于 Qt 6 开发，响应迅速，占用资源少</p>
+      <div style="font-size: 3rem; margin-bottom: 1rem;">🌐</div>
+      <h3>图片翻译</h3>
+      <p style="color: var(--vp-c-text-2);">一键识别并翻译图片文字，支持多种语言</p>
     </div>
   </div>
 </div>

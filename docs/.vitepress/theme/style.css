@@ -146,6 +146,17 @@
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
+  text-decoration: none !important;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+}
+
+.feature-card:link,
+.feature-card:visited,
+.feature-card:hover,
+.feature-card:active {
+  text-decoration: none !important;
 }
 
 .feature-card::before {
@@ -168,6 +179,10 @@
 
 .feature-card:hover::before {
   opacity: 1;
+}
+
+.feature-card:hover .feature-title {
+  color: var(--vp-c-brand-1);
 }
 
 .feature-icon {

@@ -48,6 +48,7 @@ export default defineConfig({
             { text: '🖼️ 图片处理', link: '/guide/image' },
             { text: '🎞️ 视频处理', link: '/guide/video' },
             { text: '🔍 OCR 文字识别', link: '/guide/ocr' },
+            { text: '🌐 图片翻译', link: '/guide/translation' },
           ]
         },
         {

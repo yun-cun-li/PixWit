@@ -23,17 +23,8 @@ PixWit v0.2.x - 持续更新中
 **大多数用户推荐下载便携版**，无需处理杀毒软件问题，使用更方便。
 :::
 
-## 🔍 文件校验
 
-为确保文件完整性，您可以验证 SHA256 校验值：
 
-```bash
-# Windows PowerShell
-Get-FileHash PixWit-Portable-v0.2.x.zip -Algorithm SHA256
-
-# 命令提示符（需要安装 certutil）
-certutil -hashfile PixWit-Portable-v0.2.x.zip SHA256
-```
 
 ## 💻 系统要求
 
