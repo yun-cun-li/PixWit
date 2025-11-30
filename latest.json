@@ -1,7 +1,7 @@
 {
-  "version": "1.1.5",
+  "version": "1.1.6",
   "releaseDate": "2025-11-22",
-  "releaseNotes": "打印图片\n提升UI检测",
+  "releaseNotes": "增加主题色\n可ocr搜索历史截图",
   "required": false,
   "minVersion": "0.0.0",
   "downloads": {
@@ -9,15 +9,15 @@
       "name": "便携版(Portable.7z)",
       "description": "解压即用，体积更小",
       "size": "19 MB",
-      "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.1.5/PixWit-1.1.5-Portable.7z",
-      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.1.5/PixWit-1.1.5-Portable.7z"
+      "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.1.6/PixWit-1.1.6-Portable.7z",
+      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.1.6/PixWit-1.1.6-Portable.7z"
     },
     "setup": {
       "name": "安装版(Setup.exe)",
       "description": "一键安装，自动配置",
       "size": "21 MB",
-      "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.1.5/PixWit-1.1.5-Setup.exe",
-      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.1.5/PixWit-1.1.5-Setup.exe"
+      "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.1.6/PixWit-1.1.6-Setup.exe",
+      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.1.6/PixWit-1.1.6-Setup.exe"
     }
   },
   "releaseUrls": {
