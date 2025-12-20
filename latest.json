@@ -1,28 +1,27 @@
 {
-  "version": "1.2.3",
-  "releaseDate": "2025-12-06",
-  "releaseNotes": "新增免费云AI服务\n优化若干项",
-  "required": false,
-  "minVersion": "0.0.0",
-  "downloads": {
-    "portable_7z": {
-      "name": "便携版(Portable.7z)",
-      "description": "解压即用，体积更小",
-      "size": "19 MB",
-      "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.2.3/PixWit-1.2.3-Portable.7z",
-      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.2.3/PixWit-1.2.3-Portable.7z"
+    "version": "1.2.5",
+    "releaseDate": "2025-12-06",
+    "releaseNotes": "务必升级，否则影响翻译结果显示\n识别结果markdown渲染\n截图交互体验优化",
+    "required": false,
+    "minVersion": "0.0.0",
+    "downloads": {
+        "portable_7z": {
+            "name": "便携版(Portable.7z)",
+            "description": "解压即用，体积更小",
+            "size": "19 MB",
+            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.2.5/PixWit-1.2.5-Portable.7z",
+            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.2.5/PixWit-1.2.5-Portable.7z"
+        },
+        "setup": {
+            "name": "安装版(Setup.exe)",
+            "description": "一键安装，自动配置",
+            "size": "21 MB",
+            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.2.5/PixWit-1.2.5-Setup.exe",
+            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.2.5/PixWit-1.2.5-Setup.exe"
+        }
     },
-    "setup": {
-      "name": "安装版(Setup.exe)",
-      "description": "一键安装，自动配置",
-      "size": "21 MB",
-      "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.2.3/PixWit-1.2.3-Setup.exe",
-      "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.2.3/PixWit-1.2.3-Setup.exe"
+    "releaseUrls": {
+        "github": "https://github.com/yun-cun-li/PixWit/releases",
+        "gitee": "https://gitee.com/bjs1999/PixWit/releases"
     }
-  },
-  "releaseUrls": {
-    "github": "https://github.com/yun-cun-li/PixWit/releases",
-    "gitee": "https://gitee.com/bjs1999/PixWit/releases"
-  }
 }
-
