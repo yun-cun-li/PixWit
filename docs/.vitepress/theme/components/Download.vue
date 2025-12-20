@@ -7,12 +7,14 @@
         <p class="download-desc">
           无需安装，解压即用<br>
           无杀毒软件拦截<br>
-          适合快速体验
         </p>
         <button class="download-btn" @click="downloadPortable">
           📦 下载便携版
         </button>
-     
+        <button class="download-btn pan-btn" @click="downloadPortablePan">
+          📁 网盘下载
+        </button>
+
       </div>
 
       <div class="download-card">
@@ -25,37 +27,100 @@
         <button class="download-btn" @click="downloadInstaller">
           🔧 下载安装版
         </button>
-       
+        <button class="download-btn pan-btn" @click="downloadInstallerPan">
+          📁 网盘下载
+        </button>
+
       </div>
     </div>
 
-    <div style="margin-top: 3rem; padding: 2rem; background: var(--vp-c-bg-soft); border-radius: 12px;">
-      <h3 style="margin-bottom: 1rem;">⚠️ 关于杀毒软件拦截</h3>
-      <p style="color: var(--vp-c-text-2); line-height: 1.8;">
-        由于本软件未购买代码签名证书，部分杀毒软件可能会误报。
-        <strong>本软件完全开源</strong>，代码托管在 GitHub 和 Gitee，
-        不包含任何恶意行为，请放心使用。
-      </p>
-      <ul style="margin-top: 1rem; color: var(--vp-c-text-2); line-height: 1.8;">
-        <li>✅ 源代码完全开放透明</li>
-        <li>✅ 无恶意行为，仅用于截图录屏</li>
-        <li>✅ 推荐下载绿色便携版（误报更少）</li>
-      </ul>
-    </div>
+
   </div>
 </template>
 
 <script setup lang="ts">
+import { ref, onMounted } from 'vue'
+
+interface DownloadConfig {
+  version: string
+  downloads: {
+    portable_7z: {
+      gitee: string
+      github: string
+      name: string
+      description: string
+      size: string
+      baiduPan: string
+    }
+    setup: {
+      gitee: string
+      github: string
+      name: string
+      description: string
+      size: string
+      baiduPan: string
+    }
+  }
+}
+
+const downloadData = ref<DownloadConfig | null>(null)
+
+onMounted(async () => {
+  try {
+    const response = await fetch('/latest.json')
+    downloadData.value = await response.json()
+    console.log('Download config loaded:', downloadData.value)
+  } catch (error) {
+    console.error('Failed to load download config:', error)
+  }
+})
+
 const downloadPortable = () => {
-  // 这里替换为实际的下载链接
-  alert('请前往 GitHub Releases 页面下载最新版本')
-  window.open('https://github.com/yun-cun-li/PixWit/releases', '_blank')
+  if (downloadData.value?.downloads?.portable_7z?.gitee) {
+    window.open(downloadData.value.downloads.portable_7z.gitee, '_blank')
+  } else {
+    // 备用链接：跳转到 Gitee releases 页面
+    window.open('https://gitee.com/bjs1999/PixWit/releases', '_blank')
+  }
 }
 
 const downloadInstaller = () => {
-  // 这里替换为实际的下载链接
-  alert('请前往 GitHub Releases 页面下载最新版本')
-  window.open('https://github.com/yun-cun-li/PixWit/releases', '_blank')
+  if (downloadData.value?.downloads?.setup?.gitee) {
+    window.open(downloadData.value.downloads.setup.gitee, '_blank')
+  } else {
+    // 备用链接：跳转到 Gitee releases 页面
+    window.open('https://gitee.com/bjs1999/PixWit/releases', '_blank')
+  }
+}
+
+const downloadPortablePan = () => {
+  const panUrl = downloadData.value?.downloads?.portable_7z?.baiduPan
+  if (panUrl) {
+    navigator.clipboard.writeText(panUrl).then(() => {
+      alert(`网盘下载链接已复制到剪贴板：\n\n${panUrl}`)
+      window.open(panUrl, '_blank')
+    }).catch(() => {
+      alert(`请手动复制下载链接：\n\n${panUrl}`)
+      window.open(panUrl, '_blank')
+    })
+  } else {
+    alert('网盘下载信息暂未配置')
+  }
+}
+
+const downloadInstallerPan = () => {
+  const panUrl = downloadData.value?.downloads?.setup?.baiduPan
+  if (panUrl) {
+    navigator.clipboard.writeText(panUrl).then(() => {
+      alert(`网盘下载链接已复制到剪贴板：\n\n${panUrl}`)
+      window.open(panUrl, '_blank')
+    }).catch(() => {
+      alert(`请手动复制下载链接：\n\n${panUrl}`)
+      window.open(panUrl, '_blank')
+    })
+  } else {
+    alert('网盘下载信息暂未配置')
+  }
 }
 </script>
 

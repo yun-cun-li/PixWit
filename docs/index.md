@@ -3,8 +3,16 @@ layout: home
 ---
 
 <Hero />
+<div style="padding: 4rem 1.5rem; background: var(--vp-c-bg);">
+  <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
+    <img src="/guide/截图主界面_PixWit_20251214_221948.webp" alt="PixWit 软件界面" style="width: 100%; max-width: 900px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); border: 1px solid var(--vp-c-divider);" />
+   
+  </div>
+</div>
 
 <Features />
+
+
 
 <div style="text-align: center; padding: 4rem 1.5rem; background: var(--vp-c-bg-soft);">
   <h2 style="font-size: 2rem; margin-bottom: 1rem;">🚀 快速开始</h2>
@@ -46,18 +54,9 @@ layout: home
     <div style="text-align: center;">
       <div style="font-size: 3rem; margin-bottom: 1rem;">🆓</div>
       <h3>完全免费</h3>
-      <p style="color: var(--vp-c-text-2);">开源软件，无广告，无内购，功能全开放</p>
+      <p style="color: var(--vp-c-text-2);">无广告，无内购，功能全开放</p>
     </div>
-    <!-- <div style="text-align: center;"> -->
-      <!-- <div style="font-size: 3rem; margin-bottom: 1rem;">🛡️</div>
-      <h3>安全可靠</h3>
-      <p style="color: var(--vp-c-text-2);">代码开源透明，本地运行，不联网不上传</p> -->
-    <!-- </div> -->
-    <div style="text-align: center;">
-      <div style="font-size: 3rem; margin-bottom: 1rem;">🌐</div>
-      <h3>图片翻译</h3>
-      <p style="color: var(--vp-c-text-2);">一键识别并翻译图片文字，支持多种语言</p>
-    </div>
+
   </div>
 </div>
 

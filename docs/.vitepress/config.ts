@@ -4,8 +4,8 @@ export default defineConfig({
   title: 'PixWit',
   description: '截图 · 录屏 · 简易剪辑',
   lang: 'zh-CN',
-  // GitHub Pages 部署时需要 base 路径，本地开发时使用 '/'
-  base: process.env.NODE_ENV === 'production' ? '/PixWit/' : '/',
+  // 直接服务器部署使用根路径
+  base: '/',
   
   appearance: 'dark', // 默认暗黑模式
   
@@ -13,6 +13,10 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'keywords', content: 'PixWit,截图,录屏,视频剪辑,OCR,屏幕录制,Windows截图工具' }],
   ],
+
+  sitemap: {
+    hostname: 'https://pixwit.cn'
+  },
 
   themeConfig: {
     logo: '/logo.svg',
@@ -44,21 +48,29 @@ export default defineConfig({
           text: '核心功能',
           items: [
             { text: '📸 截图功能', link: '/guide/screenshot' },
+            { text: '🔍 文字识别', link: '/guide/ocr' },
+            { text: '🌐 图片翻译', link: '/guide/translation' },
             { text: '🎬 录屏功能', link: '/guide/recording' },
             { text: '🖼️ 图片处理', link: '/guide/image' },
-            { text: '🎞️ 视频处理', link: '/guide/video' },
-            { text: '🔍 OCR 文字识别', link: '/guide/ocr' },
-            { text: '🌐 图片翻译', link: '/guide/translation' },
+            { text: '🎞️ 视频处理', link: '/guide/video' },  
+          
+          
+            {
+              text: '▦⤴提取表格',
+              link: '/guide/table_extraction_guide'
+            },
+            {
+              text: '🤖 深度解读',
+              link: '/guide/ai_analysis_guide'
+            },
+ 
+            {
+              text: '🕒历史记录',
+              link: '/guide/screenshot-hist'
+            }
           ]
         },
-        {
-          text: '参考',
-          items: [
-            { text: '⌨️ 快捷键汇总', link: '/guide/shortcuts' },
-            { text: '💡 使用技巧', link: '/guide/tips' },
-            { text: '❓ 常见问题', link: '/guide/faq' },
-          ]
-        }
+        
       ]
     },
 
@@ -77,8 +89,8 @@ export default defineConfig({
     returnToTopLabel: '返回顶部',
 
     footer: {
-      message: '开源免费 | 安全可靠',
-      copyright: 'Copyright © 2024 PixWit'
+      message: '© 2025 PixWit|粤ICP备2025481742号-2',
+      copyright: ''
     },
 
     socialLinks: [
