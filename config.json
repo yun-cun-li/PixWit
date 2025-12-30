@@ -1,0 +1,154 @@
+{
+    "aiServices": {
+        "baiduOcr": {
+            "apiKey": "KrJWfyHoOOt3tcHQclCY7AdB",
+            "enabled": false,
+            "secretKey": "iwLbcQv5wydhiCzeWfi9tDyP1mLizzpM"
+        },
+        "baiduTable": {
+            "apiKey": "5L1bZeThDQn2zLcsX9RQt24G",
+            "enabled": true,
+            "secretKey": "l3NJVLL349VhDqWIKlffZxWJJiDLSpan"
+        },
+        "deepseek": {
+            "apiKey": "sk-8700d566f7f046f291f6485373c1bdbc",
+            "baseUrl": "https://api.deepseek.com",
+            "enabled": false,
+            "model": "deepseek-chat"
+        },
+        "llmServices": [{
+                "apiKey": "sk-7c34bd64323e4248a4c6f927aa080289",
+                "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+                "enabled": true,
+                "id": "0a8f0ba0-ed59-4ad2-8288-262601bac991",
+                "model": "qwen3-max",
+                "name": "通义千问"
+            },
+            {
+                "apiKey": "sk-8700d566f7f046f291f6485373c1bdbc",
+                "baseUrl": "https://api.deepseek.com",
+                "enabled": false,
+                "id": "31727658-d5cc-4c3a-b7a9-36cd49a7073e",
+                "model": "deepseek-chat",
+                "name": "DeepSeek"
+            }
+        ],
+        "qwen": {
+            "apiKey": "sk-7c34bd64323e4248a4c6f927aa080289",
+            "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+            "enabled": true,
+            "model": "qwen3-max"
+        },
+        "useLocalOnly": false,
+        "usePixiwtAI": true
+    },
+    "baiduOCR": {
+        "apiKey": "",
+        "enabled": true,
+        "secretKey": ""
+    },
+    "baiduTable": {
+        "apiKey": "",
+        "enabled": true,
+        "secretKey": ""
+    },
+    "hotkeys": {
+        "analyze": "Ctrl+I",
+        "analyzeContent": "Ctrl+F4",
+        "arrowTool": "Alt+J",
+        "circleTool": "Alt+O",
+        "exitAnnotation": "Alt+Esc",
+        "extractTable": "Ctrl+E",
+        "lineTool": "Alt+I",
+        "ocr": "Ctrl+O",
+        "pauseRecord": "F6",
+        "record": "F3",
+        "rectangleTool": "Alt+K",
+        "screenshot": "F1",
+        "stopRecord": "F7",
+        "tableExtract": "Ctrl+F2",
+        "translate": "Ctrl+T"
+    },
+    "recorder": {
+        "animationQuality": 1,
+        "audioSource": 1,
+        "cameraDeviceId": "",
+        "enablePip": true,
+        "frameRate": 15,
+        "microphoneVolume": 150,
+        "outputFormat": 0,
+        "pipEnabled": false,
+        "recordMode": 0,
+        "showHotkeyHint": true,
+        "showMouseClicks": false,
+        "systemVolume": 100,
+        "videoQuality": 1
+    },
+    "recording": {
+        "audioSource": "system",
+        "enablePip": false,
+        "frameRate": 30,
+        "microphoneVolume": 100,
+        "outputFormat": "gif",
+        "recordMode": "fullscreen",
+        "showHotkeyHint": true,
+        "showMouseClicks": true,
+        "systemVolume": 100,
+        "videoQuality": "balanced"
+    },
+    "screenshot": {
+        "defaultAIFunction": 1,
+        "fullScreenMode": false,
+        "lastArrowStyle": 0,
+        "lastArrowThickness": 7,
+        "lastSaveDirectory": "D:/CODE/SnapEasy-final/py_web/docs/guide",
+        "lastTextColor": "#ff0000",
+        "lastThickness": 7,
+        "maskOpacity": 73
+    },
+    "settings": {
+        "autoScaleLargeImage": false,
+        "autoStart": false,
+        "colorPickerEnabled": true,
+        "hideStickyBorder": false,
+        "historyFolderPath": "D:/pixwit_hist_imgs",
+        "ocrIndexEnabled": false,
+        "theme": "dark",
+        "uiDetectionMode": 0
+    },
+    "translation": {
+        "keepFormat": true,
+        "style": "free",
+        "targetLanguage": "中文"
+    },
+    "update": {
+        "lastCheckTime": "",
+        "preferredRepo": "gitee"
+    },
+    "version": "1.0.0",
+    "window": {
+        "ocrImageVisible": true,
+        "ocrPosition": {
+            "x": 720,
+            "y": 344
+        },
+        "ocrSplitter": {
+            "left": -1,
+            "right": -1
+        },
+        "tableResult": {
+            "height": 462,
+            "imageVisible": true,
+            "splitRatio": 0.431640625,
+            "width": 1045,
+            "x": 166,
+            "y": 0
+        },
+        "translationImageVisible": false,
+        "translationOriginalVisible": true,
+        "translationPosition": {
+            "x": 756,
+            "y": 108
+        }
+    }
+}
