@@ -1,3 +1,12 @@
+---
+title: 下载 PixWit - 免费截图录屏工具
+description: 下载 PixWit 最新版本，提供便携版和安装版。免费开源的截图、录屏、视频编辑工具，支持 Windows 10/11 系统，无需注册登录。
+head:
+  - - meta
+    - name: keywords
+      content: PixWit下载,免费截图工具下载,录屏软件下载,绿色便携版,Windows截图工具
+---
+
 # 📥 下载 PixWit
 
 ::: tip 当前版本

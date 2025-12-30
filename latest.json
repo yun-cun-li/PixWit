@@ -1,7 +1,7 @@
 {
-    "version": "1.2.5",
+    "version": "1.5.0",
     "releaseDate": "2025-12-06",
-    "releaseNotes": "务必升级，否则影响翻译结果显示\n识别结果markdown渲染\n截图交互体验优化",
+    "releaseNotes": "支持自定义水印\n若干优化\n选区快捷操作",
     "required": false,
     "minVersion": "0.0.0",
     "downloads": {
@@ -9,18 +9,18 @@
             "name": "便携版(Portable.7z)",
             "description": "解压即用，体积更小",
             "size": "19 MB",
-            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.2.5/PixWit-1.2.5-Portable.7z",
-            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.2.5/PixWit-1.2.5-Portable.7z",
-            "baiduPan": "https://pan.baidu.com/s/1AFaB04H3r0s1OgGHyPI9Tw?pwd=843c"
+            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.5.0/PixWit-1.5.0-Portable.7z",
+            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.5.0/PixWit-1.5.0-Portable.7z",
+            "baiduPan": "https://pan.baidu.com/s/1AXy_DAAGekIeztq9ALZYGA?pwd=r4uh"
 
         },
         "setup": {
             "name": "安装版(Setup.exe)",
             "description": "一键安装，自动配置",
             "size": "21 MB",
-            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.2.5/PixWit-1.2.5-Setup.exe",
-            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.2.5/PixWit-1.2.5-Setup.exe",
-            "baiduPan": "https://pan.baidu.com/s/1mrP0265x8mMIohq4A98Khw?pwd=71hz"
+            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.5.0/PixWit-1.5.0-Setup.exe",
+            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.5.0/PixWit-1.5.0-Setup.exe",
+            "baiduPan": "https://pan.baidu.com/s/1ER9I0oSAhQELtUoQmU5o5A?pwd=9j74"
 
         }
     },

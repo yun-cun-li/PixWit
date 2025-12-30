@@ -1,3 +1,12 @@
+---
+title: 图片处理 - PixWit 使用手册
+description: PixWit 图片处理功能，支持打开和编辑现有图片，提供裁剪、旋转、透视矫正和格式转换。支持 PNG、JPEG、WebP、GIF 等多种格式。
+head:
+  - - meta
+    - name: keywords
+      content: 图片编辑,图片裁剪,图片格式转换,透视矫正,图片旋转,图片查看器
+---
+
 # 🖼️ 图片处理
 
 PixWit 不仅可以截图，还可以打开和编辑现有图片，支持多种格式转换。

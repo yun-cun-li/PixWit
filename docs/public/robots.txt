@@ -1,0 +1,14 @@
+# robots.txt for PixWit Official Website
+# https://pixwit.cn
+
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /.vitepress/
+
+# Sitemap
+Sitemap: https://pixwit.cn/sitemap.xml
+
+# Crawl-delay (optional, helps prevent server overload)
+Crawl-delay: 1
+

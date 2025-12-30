@@ -1,11 +1,17 @@
 ---
 layout: home
+title: PixWit - 免费开源的截图录屏工具
+description: PixWit 是一款免费开源的截图、录屏、视频编辑工具。支持 OCR 文字识别、图片翻译、表格提取、AI 图片解读等功能。绿色免安装，功能强大，完全免费。
+head:
+  - - meta
+    - name: keywords
+      content: PixWit,免费截图,录屏软件,视频编辑,OCR识别,图片翻译,开源软件,Windows工具
 ---
 
 <Hero />
 <div style="padding: 4rem 1.5rem; background: var(--vp-c-bg);">
   <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
-    <img src="/guide/截图主界面_PixWit_20251214_221948.webp" alt="PixWit 软件界面" style="width: 100%; max-width: 900px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); border: 1px solid var(--vp-c-divider);" />
+    <img src="/guide/截图主界面.webp" alt="PixWit 软件主界面截图 - 展示截图编辑工具栏和标注功能" style="width: 100%; max-width: 900px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); border: 1px solid var(--vp-c-divider);" />
    
   </div>
 </div>
@@ -60,19 +66,5 @@ layout: home
   </div>
 </div>
 
-<div style="text-align: center; padding: 3rem 1.5rem; background: var(--vp-c-bg-soft);">
-  <h2 style="font-size: 1.75rem; margin-bottom: 1rem;">📞 获取帮助</h2>
-  <p style="color: var(--vp-c-text-2); margin-bottom: 2rem;">遇到问题？加入我们的社区</p>
-  <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-    <a href="https://github.com/yun-cun-li/PixWit" target="_blank" style="padding: 0.6rem 1.5rem; background: var(--vp-c-bg); border: 2px solid var(--vp-c-divider); border-radius: 8px; text-decoration: none; color: var(--vp-c-text-1); transition: all 0.3s;">
-      GitHub 仓库
-    </a>
-    <a href="https://gitee.com/bjs1999/PixWit" target="_blank" style="padding: 0.6rem 1.5rem; background: var(--vp-c-bg); border: 2px solid var(--vp-c-divider); border-radius: 8px; text-decoration: none; color: var(--vp-c-text-1); transition: all 0.3s;">
-      Gitee 仓库
-    </a>
-    <span style="padding: 0.6rem 1.5rem; background: var(--vp-c-bg); border: 2px solid var(--vp-c-divider); border-radius: 8px; color: var(--vp-c-text-1);">
-      QQ 群：133125470
-    </span>
-  </div>
-</div>
+<Community />
 
