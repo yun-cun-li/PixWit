@@ -1,0 +1,32 @@
+{
+    "version": "1.10.0",
+    "releaseDate": "2026-02-28",
+    "releaseNotes": "新增：AI对话、提取latex公式、配音",
+    "required": false,
+    "minVersion": "0.0.0",
+    "downloads": {
+        "portable_7z": {
+            "name": "绿色版便携版",
+            "description": "解压即用，体积更小",
+            "size": "19 MB",
+            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.10.0/PixWit-1.10.0-Portable.7z",
+            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.10.0/PixWit-1.10.0-Portable.7z",
+            "baiduPan": "https://pan.baidu.com/s/1rBGJGgE1V-HsTLTwDUhAww?pwd=19yd"
+
+        },
+        "setup": {
+            "name": "安装版",
+            "description": "一键安装，自动配置",
+            "size": "21 MB",
+            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.10.0/PixWit-1.10.0-Setup.exe",
+            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.10.0/PixWit-1.10.0-Setup.exe",
+            "baiduPan": "https://pan.baidu.com/s/14MdxN90tgUz-udVBlo1gEg?pwd=2m96"
+
+        }
+    },
+    "releaseUrls": {
+        "github": "https://github.com/yun-cun-li/PixWit/releases",
+        "gitee": "https://gitee.com/bjs1999/PixWit/releases"
+    }
+}
+
