@@ -1,6 +1,6 @@
 {
-    "version": "1.8.2",
-    "releaseDate": "2025-12-06",
+    "version": "1.10.0",
+    "releaseDate": "2026-02-28",
     "releaseNotes": "新增：AI对话、提取latex公式、配音",
     "required": false,
     "minVersion": "0.0.0",
@@ -9,18 +9,18 @@
             "name": "绿色版便携版",
             "description": "解压即用，体积更小",
             "size": "19 MB",
-            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.8.2/PixWit-1.8.2-Portable.7z",
-            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.8.2/PixWit-1.8.2-Portable.7z",
-            "baiduPan": "https://pan.baidu.com/s/13MD_gjgkf2cdEtnPDwUTyQ?pwd=7j3b"
+            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.10.0/PixWit-1.10.0-Portable.7z",
+            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.10.0/PixWit-1.10.0-Portable.7z",
+            "baiduPan": "https://pan.baidu.com/s/1rBGJGgE1V-HsTLTwDUhAww?pwd=19yd"
 
         },
         "setup": {
             "name": "安装版",
             "description": "一键安装，自动配置",
             "size": "21 MB",
-            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.8.2/PixWit-1.8.2-Setup.exe",
-            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.8.2/PixWit-1.8.2-Setup.exe",
-            "baiduPan": " https://pan.baidu.com/s/178pDyb7G-Aj_fQBijUbRMA?pwd=7hra"
+            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.10.0/PixWit-1.10.0-Setup.exe",
+            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.10.0/PixWit-1.10.0-Setup.exe",
+            "baiduPan": "https://pan.baidu.com/s/14MdxN90tgUz-udVBlo1gEg?pwd=2m96"
 
         }
     },
@@ -29,3 +29,4 @@
         "gitee": "https://gitee.com/bjs1999/PixWit/releases"
     }
 }
+
