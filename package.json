@@ -1,0 +1,25 @@
+{
+  "name": "pixwit-web",
+  "version": "1.0.0",
+  "description": "PixWit 官方网站 - 截图 · 录屏 · 简易剪辑",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "pixwit",
+    "screenshot",
+    "screen-recording",
+    "video-editing",
+    "documentation"
+  ],
+  "author": "PixWit Team",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "vitepress": "^1.0.0",
+    "vue": "^3.3.0"
+  }
+}
+

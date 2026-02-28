@@ -1,0 +1,94 @@
+# Git 属性配置文件
+
+# 自动检测文本文件并进行行结束符规范化
+* text=auto
+
+# 源代码文件
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+*.c text eol=lf
+*.cc text eol=lf
+*.cxx text eol=lf
+
+# Qt 相关文件
+*.pro text eol=lf
+*.pri text eol=lf
+*.qml text eol=lf
+*.qrc text eol=lf
+*.ui text eol=lf
+*.ts text eol=lf
+
+# CMake 文件
+CMakeLists.txt text eol=lf
+*.cmake text eol=lf
+
+# 配置文件
+*.ini text eol=lf
+*.conf text eol=lf
+*.config text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# 文档文件
+*.md text eol=lf
+*.txt text eol=lf
+*.rst text eol=lf
+
+# 脚本文件
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# 二进制文件
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.lib binary
+*.a binary
+*.obj binary
+*.o binary
+*.pdb binary
+*.idb binary
+
+# 图像文件
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.svg text eol=lf
+
+# 音频/视频文件
+*.mp3 binary
+*.mp4 binary
+*.avi binary
+*.wav binary
+
+# 压缩文件
+*.zip binary
+*.rar binary
+*.7z binary
+*.tar binary
+*.gz binary
+*.bz2 binary
+
+# 字体文件
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+
+# 其他二进制文件
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary

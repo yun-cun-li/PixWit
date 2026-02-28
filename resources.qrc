@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/icons">
+        <!-- 应用程序图标 -->
+        <file>resources/icons/app.ico</file>
+        
+        <!-- 功能图标 -->
+        <file>resources/icons/area_screenshot.svg</file>
+        
+        <!-- 工具按钮图标 - SVG矢量图标 (英文文件名，避免编码问题) -->
+        <file>resources/icons/pen.svg</file>
+        <file>resources/icons/line.svg</file>
+        <file>resources/icons/arrow.svg</file>
+        <file>resources/icons/circle.svg</file>
+        <file>resources/icons/rect.svg</file>
+        <file>resources/icons/mosaic.svg</file>
+        <file>resources/icons/text.svg</file>
+        
+        <!-- 操作按钮图标 - SVG矢量图标 (英文文件名，避免编码问题) -->
+        <file>resources/icons/undo.svg</file>
+        <file>resources/icons/save.svg</file>
+        <file>resources/icons/copy.svg</file>
+        <file>resources/icons/pin.svg</file>
+        <file>resources/icons/close.svg</file>
+    </qresource>
+</RCC>
