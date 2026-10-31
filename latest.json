@@ -1,27 +1,37 @@
 {
-    "version": "1.17.0",
-    "releaseDate": "2026-09-13",
-    "releaseNotes": "修复偶发崩溃\n性能优化，解决卡顿问题\n工具栏交互优化",
+    "version": "1.19.1",
+    "releaseDate": "2026-10-31",
+    "releaseNotes": "支持macos，优化UI界面，修复已知问题，提升稳定性。",
     "required": false,
     "minVersion": "0.0.0",
     "downloads": {
         "portable_7z": {
             "name": "绿色版便携版",
             "description": "解压即用，体积更小",
-            "size": "19 MB",
-            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.17.0/PixWit-1.17.0-Portable.7z",
-            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.17.0/PixWit-1.17.0-Portable.7z",
-            "baiduPan": "https://pan.baidu.com/s/1cJGShr09swndjSyczhdTGQ?pwd=f8mm"
+            "size": "",
+            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.19.1/PixWit-1.19.1-Windows-x64-Portable.7z",
+            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.19.1/PixWit-1.19.1-Windows-x64-Portable.7z",
+            "baiduPan": "https://pan.baidu.com/s/1qngHaV2q645ueLtQF5JiBQ?pwd=d5hg"
 
         },
         "setup": {
             "name": "安装版",
             "description": "一键安装，自动配置",
-            "size": "21 MB",
-            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.17.0/PixWit-1.17.0-Setup.exe",
-            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.17.0/PixWit-1.17.0-Setup.exe",
-            "baiduPan": "https://pan.baidu.com/s/1RlltRLuWShN1S8VbJUttNg?pwd=b8bf"
+            "size": "",
+            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.19.1/PixWit-1.19.1-Windows-x64-Setup.exe",
+            "gitee": "https://gitee.com/bjs1999/PixWit/releases/download/v1.19.1/PixWit-1.19.1-Windows-x64-Setup.exe",
+            "baiduPan": "https://pan.baidu.com/s/1bbCdrwsfMkD60MTdtkUDiw?pwd=je7n"
 
+        },
+        "macos_dmg": {
+            "name": "macOS 版",
+            "description": "拖入「应用程序」即可使用",
+            "version": "1.19.0",
+            "requirements": "macOS 14+ · Apple Silicon",
+            "size": "",
+            "github": "https://github.com/yun-cun-li/PixWit/releases/download/v1.19.1/PixWit-1.19.1-macOS-arm64.dmg",
+            "gitee":  "https://gitee.com/bjs1999/PixWit/releases/download/v1.19.1/PixWit-1.19.1-macOS-arm64.dmg",
+            "baiduPan": "https://pan.baidu.com/s/1cbWYfNf9-tL3BkC7VvKHTg?pwd=j3m7"
         }
     },
     "releaseUrls": {
